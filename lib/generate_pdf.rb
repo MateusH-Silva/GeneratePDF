@@ -68,7 +68,7 @@ module GeneratePdf
     # Aqui colocamos os dados que formatamos antes da coluna x
     g.labels = spending_labels
     # Gera a imagem no diretório público (você pode escolher onde gerar)
-    g.write('public/graph.jpg')
+    g.write ('public/graph.jpg')
  
  
     ## Gráfico 2 ##
